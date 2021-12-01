@@ -335,7 +335,9 @@ img {
 }
 .picture-list {
   display: inline-block;
-  margin-bottom: 79px;
+  padding-bottom: 79px;
+  padding-left: 215px;
+  margin: 0px;
 }
 .work-list {
   display: inline-block;
