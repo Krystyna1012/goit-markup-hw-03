@@ -28,6 +28,7 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  padding-left: 215px;
 }
 
 .logo-color {
@@ -58,7 +59,8 @@ a {
   color: var(--accent-color);
 }
 .position {
-  padding: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0px;
