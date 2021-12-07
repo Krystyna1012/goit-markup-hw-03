@@ -36,14 +36,17 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-left: 0;
   margin-right: 93px;
 }
 
 .logo-color {
   color: var(--title-text-color);
 }
-
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .list-nav,
 .link {
   font-size: 14px;
@@ -51,7 +54,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-left: 0;
 }
 
 .active-page {
@@ -62,9 +64,7 @@ a {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-left: 331px;
-  margin-right: 0px;
-  padding-left: 0;
+  margin-left: auto;
 }
 
 .contact-link {
@@ -91,9 +91,7 @@ a {
   padding-top: 200px;
   text-align: center;
   border-bottom: 94px;
-  flex-direction: column;
-  height: 600px;
-  margin: 0px;
+  margin-bottom: 94px;
 }
 .main-title {
   font-weight: 900;
@@ -131,7 +129,6 @@ a {
 /*Особенности*/
 .features-list {
   display: flex;
-  justify-content: center;
 }
 
 .features {
@@ -170,8 +167,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-bottom: 50px;
-  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -185,27 +181,30 @@ a {
   width: 270px;
   display: inline-block;
   justify-content: center;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 30px;
+}
+.team:last-child {
+  margin-right: 0px;
+}
+
+.team-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .person {
   font-size: 16px;
   font-weight: 500;
-  padding-top: 30px;
-  margin: 0px;
+  margin-bottom: 10px;
 }
 .team-member {
   font-weight: 400;
   color: var(--primary-text-color);
-  padding-bottom: 30px;
-  padding-top: 10px;
-  margin: 0px;
 }
 .footer {
-  height: 252px;
   color: var(--primary-white-color);
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contact-links {
   color: rgba(255, 255, 255, 0.6);
@@ -219,16 +218,12 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 .address-nav {
-  padding-left: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-left: auto;
 }
 .imail {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-top: 9px;
 }
 /*Портфолио*/
 .buttons {
@@ -299,32 +294,22 @@ header {
 }
 .position {
   display: inline-flex;
-  margin: 0 15px;
-  padding-top: 32px;
-  margin-bottom: 32px;
-}
-.position:first-child {
-  margin-left: 0;
+  margin-right: 30px;
 }
 .position:last-child {
   margin-right: 0;
 }
 .list-item {
   width: 270px;
-  margin: 0 15px;
-}
-.list-item:first-child {
-  margin-left: 0px;
+  margin-right: 30px;
 }
 .list-item:last-child {
   margin-right: 0px;
 }
 .list-img {
-  margin: 0 15px;
+  margin-right: 30px;
 }
-.list-img:first-child {
-  margin-left: 0px;
-}
+
 .list-img:last-child {
   margin-right: 0px;
 }
@@ -341,16 +326,10 @@ header {
   display: inline-flex;
 }
 .portfolio {
-  display: inline;
-  justify-content: center;
-  margin-left: 8px;
   margin-right: 8px;
 }
 .portfolio:last-child {
   margin-right: 0px;
-}
-.portfolio:first-child {
-  margin-left: 0px;
 }
 
 .portfolio-list {
@@ -363,8 +342,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
-  padding-left: 0px;
-  margin: 0px;
 }
 .work-list {
   border: 1px solid #eeeeee;
